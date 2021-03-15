@@ -1,0 +1,23 @@
+.hero {
+  color: #dddddd;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    span {
+      color: #f05454;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: #f05454;
+    line-height: 2;
+    padding-bottom: 0.5rem;
+  }
+}

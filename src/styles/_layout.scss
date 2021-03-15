@@ -2,8 +2,9 @@
   .sidebar {
     width: 20%;
     height: 100vh;
-    background-color: #30475e;
+    background-color: #16213e;
     position: fixed;
+    // color: #121222
   }
 
   .main_content {
@@ -11,5 +12,9 @@
     margin-left: 20%;
     background-color: #222831;
     min-height: 100vh;
+    background-image: url(../img/Background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
   }
 }
