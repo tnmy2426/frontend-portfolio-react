@@ -11,7 +11,7 @@
       width: 100%;
       text-align: center;
       margin-top: 2rem;
-      border-bottom: 2px solid #f05454;
+      border-bottom: 2px solid #e94560;
 
       img {
         width: 180px;
@@ -22,6 +22,7 @@
         -ms-border-radius: 100%;
         -o-border-radius: 100%;
 
+        border: 1px solid #e94560;
         margin-bottom: 2rem;
       }
     }
@@ -35,7 +36,7 @@
         a {
           text-decoration: none;
           font-size: 1.5rem;
-          color: #f05454;
+          color: #e94560;
           display: block;
           position: relative;
           padding: 0.5rem 0;
@@ -75,7 +76,7 @@
 
     .footer {
       width: 100%;
-      border-top: 2px solid #f05454;
+      border-top: 2px solid #e94560;
 
       p {
         text-align: center;

@@ -21,16 +21,16 @@ const HomePage = () => {
       </div>
       <div className='social_icons'>
         <Link to='https://www.linkedin.com/in/abdullah-al-nahdi-335a1a12a/'>
-          <FontAwesomeIcon icon={faLinkedinIn} className='linkedin' />
+          <FontAwesomeIcon icon={faLinkedinIn} className='linkedin icon' />
         </Link>
         <Link to='https://github.com/tnmy2426'>
-          <FontAwesomeIcon icon={faGithub} className='github' />
+          <FontAwesomeIcon icon={faGithub} className='github icon' />
         </Link>
         <Link to='https://twitter.com/tnmy2426'>
-          <FontAwesomeIcon icon={faTwitter} className='twitter' />
+          <FontAwesomeIcon icon={faTwitter} className='twitter icon' />
         </Link>
         <Link to='https://www.facebook.com/xdxtnmy/'>
-          <FontAwesomeIcon icon={faFacebookF} className='facebook' />
+          <FontAwesomeIcon icon={faFacebookF} className='facebook icon' />
         </Link>
       </div>
     </header>
