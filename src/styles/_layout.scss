@@ -16,5 +16,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    .content {
+      padding: 0 10rem;
+    }
   }
 }
