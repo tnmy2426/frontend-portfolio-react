@@ -4,8 +4,42 @@
     height: 100vh;
     background-color: #16213e;
     position: fixed;
-    // color: #121222
-  }
+    z-index: 11;
+    border-right: 1px solid #2e344e;
+    transform-origin: left;
+
+    @media screen and (max-width: 1000px) {
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      -o-transform: translateX(-100%);
+      width: 30%;
+    }
+    @media screen and (max-width: 411px) {
+      width: 50%;
+    }
+  } //end of sidebar class
+
+  .nav_toggle {
+    @media screen and (max-width: 1000px) {
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+    }
+  } //end of nav_toggle class
 
   .main_content {
     width: 80%;
@@ -19,6 +53,58 @@
 
     .content {
       padding: 0 10rem;
+    } //end of content class
+
+    @media screen and (max-width: 1000px) {
+      margin-left: 0;
+      width: 100%;
+    }
+  } //end of main_content class
+}
+
+///Responsive Navbar Togglers
+.nav_btn {
+  position: absolute;
+  z-index: 10;
+  right: 10%;
+  top: 5%;
+  width: 4rem;
+  height: 4rem;
+  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  // background-color: #dddddd;
+
+  .lines_1,
+  .lines_2,
+  .lines_3,
+  .lines_4 {
+    height: 0.3rem;
+    width: 100%;
+    background-color: #e94560;
+    pointer-events: none;
+    display: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    &:not(:last-child) {
+      margin-bottom: 0.4rem;
     }
   }
-}
+
+  @media screen and (max-width: 1000px) {
+    display: block;
+
+    .lines_1,
+    .lines_2,
+    .lines_3,
+    .lines_4 {
+      display: block;
+    }
+  }
+} // end of nav_btn class

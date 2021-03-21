@@ -8,13 +8,25 @@ import AboutPage from "./Pages/AboutPage";
 import PortfolioPage from "./Pages/PortfolioPage";
 import BlogPage from "./Pages/BlogPage";
 import ContactPage from "./Pages/ContactPage";
+import { useState } from "react";
 
 function App() {
+  const [navToggle, setNavToggle] = useState(false);
+
+  const navClick = () => {
+    setNavToggle(!navToggle);
+  };
   return (
     <div className='App'>
-      <aside className='sidebar'>
+      <aside className={`sidebar ${navToggle ? "nav_toggle" : ""}`}>
         <NavBar />
       </aside>
+      <div className='nav_btn' onClick={navClick}>
+        <div className='lines_1'></div>
+        <div className='lines_2'></div>
+        <div className='lines_3'></div>
+        <div className='lines_4'></div>
+      </div>
       <main className='main_content'>
         <div className='content'>
           <Switch>

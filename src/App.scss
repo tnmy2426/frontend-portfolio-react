@@ -35,3 +35,9 @@ body {
   font-size: 62.5%;
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
+
+@media screen and (max-width: 411px) {
+  html {
+    font-size: 70%;
+  }
+}
