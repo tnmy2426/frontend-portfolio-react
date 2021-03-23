@@ -26,6 +26,20 @@
       padding-left: 3rem;
     }
   }
+
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    padding: 2rem 0;
+
+    img {
+      width: 600px;
+      height: 600px;
+      margin-left: 4rem;
+    }
+    .personal_details {
+      margin: 0 auto;
+    }
+  }
 } // end of personalInfo
 
 .skillSection {
@@ -37,12 +51,18 @@
 
   @media screen and (max-width: 1100px) {
     grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 0;
   }
-}
+} // end of skillSection class
 
 .service_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 4rem 0;
-}
+
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+} // end of service_container class

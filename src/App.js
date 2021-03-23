@@ -6,7 +6,6 @@ import NavBar from "./Components/NavBar";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import PortfolioPage from "./Pages/PortfolioPage";
-import BlogPage from "./Pages/BlogPage";
 import ContactPage from "./Pages/ContactPage";
 import { useState } from "react";
 
@@ -38,9 +37,6 @@ function App() {
             </Route>
             <Route path='/portfolios' exact>
               <PortfolioPage />
-            </Route>
-            <Route path='/blogs' exact>
-              <BlogPage />
             </Route>
             <Route path='/contact' exact>
               <ContactPage />
