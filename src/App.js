@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 // Components
 import NavBar from "./Components/NavBar";
@@ -41,6 +41,7 @@ function App() {
             <Route path='/contact' exact>
               <ContactPage />
             </Route>
+            <Redirect to='/' />
           </Switch>
         </div>
       </main>
