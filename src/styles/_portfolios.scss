@@ -42,6 +42,10 @@
         background-color: #16213e;
         color: #e94560;
       }
+
+      @media screen and (max-width: 411px) {
+        padding: 0.5rem 1rem;
+      }
     }
   }
 }
