@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/frontend-portfolio-react/static/css/main.bb60db8f.chunk.css",
+    "main.js": "/frontend-portfolio-react/static/js/main.1cb9abd1.chunk.js",
+    "main.js.map": "/frontend-portfolio-react/static/js/main.1cb9abd1.chunk.js.map",
+    "runtime-main.js": "/frontend-portfolio-react/static/js/runtime-main.0f1dfc72.js",
+    "runtime-main.js.map": "/frontend-portfolio-react/static/js/runtime-main.0f1dfc72.js.map",
+    "static/js/2.47a67175.chunk.js": "/frontend-portfolio-react/static/js/2.47a67175.chunk.js",
+    "static/js/2.47a67175.chunk.js.map": "/frontend-portfolio-react/static/js/2.47a67175.chunk.js.map",
+    "index.html": "/frontend-portfolio-react/index.html",
+    "static/css/main.bb60db8f.chunk.css.map": "/frontend-portfolio-react/static/css/main.bb60db8f.chunk.css.map",
+    "static/js/2.47a67175.chunk.js.LICENSE.txt": "/frontend-portfolio-react/static/js/2.47a67175.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/frontend-portfolio-react/static/media/Background.482abc9b.svg",
+    "static/media/apiDevelopment.8b992fd0.svg": "/frontend-portfolio-react/static/media/apiDevelopment.8b992fd0.svg",
+    "static/media/avatar.23984c97.png": "/frontend-portfolio-react/static/media/avatar.23984c97.png",
+    "static/media/development.5d5dba2c.svg": "/frontend-portfolio-react/static/media/development.5d5dba2c.svg",
+    "static/media/djangoAPI.db52070e.PNG": "/frontend-portfolio-react/static/media/djangoAPI.db52070e.PNG",
+    "static/media/djangoBackend.f5e9cdf9.PNG": "/frontend-portfolio-react/static/media/djangoBackend.f5e9cdf9.PNG",
+    "static/media/emailme.07ecc271.svg": "/frontend-portfolio-react/static/media/emailme.07ecc271.svg",
+    "static/media/figmaToReact.15bbd128.PNG": "/frontend-portfolio-react/static/media/figmaToReact.15bbd128.PNG",
+    "static/media/location.242adabb.svg": "/frontend-portfolio-react/static/media/location.242adabb.svg",
+    "static/media/personalphoto.6df68ae0.jpg": "/frontend-portfolio-react/static/media/personalphoto.6df68ae0.jpg",
+    "static/media/phone.81d20827.svg": "/frontend-portfolio-react/static/media/phone.81d20827.svg",
+    "static/media/port5.1d8922e2.PNG": "/frontend-portfolio-react/static/media/port5.1d8922e2.PNG",
+    "static/media/port7.a0e7d7b6.PNG": "/frontend-portfolio-react/static/media/port7.a0e7d7b6.PNG",
+    "static/media/port8.c571bbff.PNG": "/frontend-portfolio-react/static/media/port8.c571bbff.PNG",
+    "static/media/psdTohtmlDemo.fb170f6e.PNG": "/frontend-portfolio-react/static/media/psdTohtmlDemo.fb170f6e.PNG",
+    "static/media/reactjsPort.86b96e0b.PNG": "/frontend-portfolio-react/static/media/reactjsPort.86b96e0b.PNG",
+    "static/media/webDesign.851cc4dd.svg": "/frontend-portfolio-react/static/media/webDesign.851cc4dd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f1dfc72.js",
+    "static/js/2.47a67175.chunk.js",
+    "static/css/main.bb60db8f.chunk.css",
+    "static/js/main.1cb9abd1.chunk.js"
+  ]
+}
